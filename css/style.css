@@ -1,0 +1,25 @@
+table,th,td{
+    border:2px solid red;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 15px;
+}
+table{
+    margin:10%;
+}
+tr:nth-child(4){
+    background-color: red;
+    color:yellow;
+}
+tr:nth-child(1),tr:nth-child(2),tr:nth-child(3){
+    background-color: pink;
+    color:white;
+}
+tr:nth-child(5),tr:nth-child(6){
+    background-color: black;
+    color:blue;
+}
+ table tr th:nth-child(1),table tr td:nth-child(1){ 
+    display:none;
+}
